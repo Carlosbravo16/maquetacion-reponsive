@@ -612,6 +612,7 @@ footer p {
 
         .feature_row {
             display: flex;
+            flex-direction: row;
             justify-content: space-around;
             align-items: center;
             margin-top: 1rem;
@@ -620,7 +621,7 @@ footer p {
         .feature-box {
             margin-top: 2rem;
             text-align: center;
-            padding: 1rem 2rem;
+            padding: 1rem 1rem;
             border-radius: 0.2rem;
             color: var(--blanco);
             font-size: 3rem;
@@ -679,7 +680,7 @@ footer p {
             font-size: 2rem;
             color: var(--blanco);
             text-align: center;
-            padding-top: 5rem;
+            padding-top: 2rem;
         }
 
         .box-opciones {
@@ -758,5 +759,9 @@ footer p {
 
         .politicas-footer {
             line-height: 3rem;
+        }
+        .redes1{
+            padding: 1rem;
+           
         }
     }
